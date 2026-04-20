@@ -38,11 +38,19 @@ A smart career counseling web application built with PHP, MySQL, and Claude AI.
 ### Steps
 
 **1. Clone the repository**
+
 git clone https://github.com/mahen215/Career_AI.git
+
 cd Career_AI
 
 **2. Start Docker containers**
+
+
+
 docker-compose up --build
+
+
+
 **3. Open phpMyAdmin**
 - Username: `root`
 - Password: `root`
@@ -126,18 +134,18 @@ docker ps
 
 ## 📁 Project Structure
 career-ai/
-├── db.php              # Database connection
-├── index.php           # Login page (3D flip)
-├── dashboard.php       # Main dashboard
-├── student_form.php    # Student details form
-├── ai_career.php       # AI analysis page
-├── history.php         # Analysis history
-├── delete_history.php  # Delete records
-├── logout.php          # Logout
-├── style.css           # Styling
-├── Dockerfile          # Docker config
-├── docker-compose.yml  # Docker compose
-└── README.md           # Documentation 
+├── db.php             
+├── index.php           
+├── dashboard.php       
+├── student_form.php    
+├── ai_career.php       
+├── history.php         
+├── delete_history.php  
+├── logout.php         
+├── style.css           
+├── Dockerfile          
+├── docker-compose.yml  
+└─ README.md           
 ---
 
 ## 👨‍💻 Developer
