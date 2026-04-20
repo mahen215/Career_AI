@@ -79,6 +79,7 @@ INSERT INTO admin (username, password) VALUES ('admin', 'admin123');
 
 **5. Open Project**
 localhost:8080
+
 **6. API Key Setup — `ai_career.php` mein apni key daalo:**
 ```php
 $api_key = "YOUR_ANTHROPIC_API_KEY";
@@ -89,9 +90,13 @@ $api_key = "YOUR_ANTHROPIC_API_KEY";
 ## 💻 XAMPP Setup
 
 **1. Clone the repository**
+
 git clone https://github.com/mahen215/Career_AI.git
+
 **2. Move to htdocs folder**
+
 C:\xampp\htdocs\career-ai
+
 **3. Database setup — phpMyAdmin mein ye SQL run karo:**
 ```sql
 CREATE DATABASE IF NOT EXISTS career_ai;
